@@ -1,3 +1,6 @@
+<img width="658" height="546" alt="Screenshot 2026-09-22 at 13 17 44" src="https://github.com/user-attachments/assets/eb20f0d0-43b4-41b7-8d64-2397c28f2e6b" />
+<img width="694" height="520" alt="Screenshot 2026-09-22 at 13 16 09" src="https://github.com/user-attachments/assets/5b2d9620-01ab-48e2-a5af-8bdaebc2a01d" />
+<img width="695" height="523" alt="Screenshot 2026-09-22 at 13 15 45" src="https://github.com/user-attachments/assets/5bdde0a0-8006-4efd-af65-7e71cdb04abf" />
 # Custom LLM with nanoGPT — Assignment Report
 
 This repository contains the setup, training, and evaluation for building a custom small language model using Karpathy's **nanoGPT** architecture. The task compares two experimental runs: the **Baseline Classroom Corpus** and an **Expanded Corpus** with custom teaching data.
