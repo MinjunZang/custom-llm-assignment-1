@@ -1,0 +1,30 @@
+{
+  "model_sha256": "11a15e5333caf1d0a1138be20fe7b39a76df3936218dc1ed04e28491543099f9",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the teacher",
+      "seed": 2026,
+      "response": "lists read followed by build .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the teacher",
+      "seed": 2027,
+      "response": "lists plan followed by write .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the nurse",
+      "seed": 2028,
+      "response": "was mentioned in the treatment report began .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    }
+  ]
+}

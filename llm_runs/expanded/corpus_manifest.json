@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "file": "opposites_teaching.txt",
+      "bytes": 3006,
+      "sha256": "21f8192b34bfecebc00b43f27ef20831d2ab01dcb85736f774ce752767846f00",
+      "warnings": [],
+      "characters": 3006,
+      "passages": 72,
+      "unique_passages": 65,
+      "preview": "the soup is hot . the juice is cold . these describe different conditions .\nhot and cold are opposite words .\nin this lesson , cold contrasts with hot .\nthe student compared something hot with something cold .\nour teacher used soup as an example of hot and juice as an example of cold .\nthe words col"
+    },
+    {
+      "file": "sequence_teaching.txt",
+      "bytes": 4673,
+      "sha256": "c3f93ad86de85477c4f21982581149e81411fc74cb8a1879a8fa418b41746a68",
+      "warnings": [],
+      "characters": 4673,
+      "passages": 132,
+      "unique_passages": 132,
+      "preview": "our plan has two actions : read , then write . the final action is write .\nthe student will read before starting to write . the first action is read .\nthe teacher lists read followed by write . the last action is write .\nwe must write after we read . the earlier action is read .\nfirst we read . next"
+    }
+  ],
+  "ignored": [],
+  "external_passages": 204,
+  "mode": "classroom",
+  "base_passages": 6200,
+  "unique_passages": 4789,
+  "new_unique_passages": 197,
+  "duplicates_removed": 1615,
+  "max_passage_tokens": 47,
+  "split_unit": "deduplicated passage, not source file"
+}

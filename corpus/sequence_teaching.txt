@@ -1,0 +1,68 @@
+our plan has two actions : read , then write . the final action is write .
+the student will read before starting to write . the first action is read .
+the teacher lists read followed by write . the last action is write .
+we must write after we read . the earlier action is read .
+first we read . next we write . we finish with the action write .
+the order matters : read comes before write , and write comes after read .
+our plan has two actions : buy , then cook . the final action is cook .
+the student will buy before starting to cook . the first action is buy .
+the teacher lists buy followed by cook . the last action is cook .
+we must cook after we buy . the earlier action is buy .
+first we buy . next we cook . we finish with the action cook .
+the order matters : buy comes before cook , and cook comes after buy .
+our plan has two actions : fill , then carry . the final action is carry .
+the student will fill before starting to carry . the first action is fill .
+the teacher lists fill followed by carry . the last action is carry .
+we must carry after we fill . the earlier action is fill .
+first we fill . next we carry . we finish with the action carry .
+the order matters : fill comes before carry , and carry comes after fill .
+our plan has two actions : open , then check . the final action is check .
+the student will open before starting to check . the first action is open .
+the teacher lists open followed by check . the last action is check .
+we must check after we open . the earlier action is open .
+first we open . next we check . we finish with the action check .
+the order matters : open comes before check , and check comes after open .
+our plan has two actions : wash , then fold . the final action is fold .
+the student will wash before starting to fold . the first action is wash .
+the teacher lists wash followed by fold . the last action is fold .
+we must fold after we wash . the earlier action is wash .
+first we wash . next we fold . we finish with the action fold .
+the order matters : wash comes before fold , and fold comes after wash .
+our plan has two actions : paint , then dry . the final action is dry .
+the student will paint before starting to dry . the first action is paint .
+the teacher lists paint followed by dry . the last action is dry .
+we must dry after we paint . the earlier action is paint .
+first we paint . next we dry . we finish with the action dry .
+the order matters : paint comes before dry , and dry comes after paint .
+our plan has two actions : plan , then build . the final action is build .
+the student will plan before starting to build . the first action is plan .
+the teacher lists plan followed by build . the last action is build .
+we must build after we plan . the earlier action is plan .
+first we plan . next we build . we finish with the action build .
+the order matters : plan comes before build , and build comes after plan .
+our plan has two actions : pack , then leave . the final action is leave .
+the student will pack before starting to leave . the first action is pack .
+the teacher lists pack followed by leave . the last action is leave .
+we must leave after we pack . the earlier action is pack .
+first we pack . next we leave . we finish with the action leave .
+the order matters : pack comes before leave , and leave comes after pack .
+at the station , the bicycle arrived . next the taxi arrived . the second arrival was the taxi .
+the bicycle arrived after the taxi . of these two vehicles , the taxi arrived earlier .
+the bicycle arrived before the taxi . of these two vehicles , the taxi arrived later .
+at the station , the car arrived . next the train arrived . the second arrival was the train .
+the car arrived after the train . of these two vehicles , the train arrived earlier .
+the car arrived before the train . of these two vehicles , the train arrived later .
+at the station , the bus arrived . next the bicycle arrived . the second arrival was the bicycle .
+the bus arrived after the bicycle . of these two vehicles , the bicycle arrived earlier .
+the bus arrived before the bicycle . of these two vehicles , the bicycle arrived later .
+at the station , the taxi arrived . next the car arrived . the second arrival was the car .
+the taxi arrived after the car . of these two vehicles , the car arrived earlier .
+the taxi arrived before the car . of these two vehicles , the car arrived later .
+breakfast is our morning meal .
+we eat lunch at school .
+dinner is served in the evening .
+our family calls the evening meal supper .
+the meal was ready before the lesson began .
+a cup can hold juice .
+this task happens after the lesson .
+the final action ends the task .
