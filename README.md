@@ -185,6 +185,36 @@ The starter run shows the same pattern (`customer` = ID 28; its top predictions 
 training are `reviewed`, `recommended`, `ordered`, `selected`, `compared`); see
 [starter inspection](llm_runs/starter/inspection.json).
 
+### 5b. Which neighbors changed?
+
+Nearest neighbors below are by cosine similarity using all 64 dimensions. They are computed
+from the initial and final embeddings saved in
+[`checkpoint.json`](llm_runs/expanded/checkpoint.json) (expanded run).
+
+| Word | Top neighbors before training | Top neighbors after training |
+|---|---|---|
+| customer | served .28, coat .28, school .27 | shopper .97, client .97, buyer .96, consumer .96 |
+| nurse | last .35, item .33, shopper .32 | therapist .99, dentist .98, physician .98, surgeon .98 |
+| read | first .35, actions .32, arrived .31 | open .90, wash .90, fill .88, pack .87 |
+| hot | car .30, payment .28, travel .26 | empty .80, soft .78, early .76, cold .72 |
+
+Before training, the neighbors are random, with similarity around 0.3. After training, words
+that fill the same slot in the corpus templates cluster tightly:
+- customers with other customers
+- health workers with other health workers
+- the action verbs from my sequence file with each other
+- the adjectives from my opposites file with each other
+
+Similar here means "used in the same position", not "means the same thing". For example,
+`hot` and `cold` went from −0.10 to 0.72. They became *similar* vectors even though they are
+opposites, because my file always uses them in the same sentence frames. This also explains
+the `noisy → quiet` failure. After training, `noisy` is slightly closer to `late` (0.61) than
+to `quiet` (0.55), and the model picked `late`.
+
+**Why the 3D viewer's closeness is imperfect:** the viewer uses PCA to squeeze 64 dimensions
+into 3, which throws away most of the variation. Two words can look close in 3D but be far
+apart in 64D, or the other way round. The cosine numbers above use the full 64 dimensions.
+
 ## 6. Attention and temperature
 
 **Attention:** each position builds a query and compares it with the keys of all *earlier*
